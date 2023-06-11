@@ -24,5 +24,11 @@ executable visualsort
   build-depends:       
     base >=4.13 && <4.14
     , Cabal
+  other-modules:
+    MergeSort
+    , BubbleSort
+    , InsertionSort
+    , QuickSort
+    , SelectionSort
   -- hs-source-dirs:
   default-language:    Haskell2010
